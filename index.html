@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 5px solid greenyellow;
+        }
+        .parent1 {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 250px;
+            margin: 10px;
+            font-style: oblique;
+        }
+
+        .first {
+            border: 3px solid red;
+            background-color: black;
+            color: white;
+            height: 100px;
+            width: 366px;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 2rem;
+            margin-top: 2rem;
+        }
+
+        .second {
+            border: 3px solid red;
+            background-color: black;
+            color: white;
+            height: 70px;
+            width: 296px;
+            border-radius: 20px;
+            text-align: center;
+            margin-left: 2rem;
+            margin-top: 2rem;
+        }
+
+        .third {
+            border: 3px solid red;
+            background-color: black;
+            color: white;
+            height: 142px;
+            width: 326px;
+            border-radius: 20px;
+            text-align: center;
+            margin-right: 2rem;
+            margin-top: 2rem;
+        }
+
+        .parent2 {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            height: 450px;
+            align-items: center;
+            margin-bottom: 1px;
+        }
+
+        .circle {
+            border: 7px solid gray;
+            font-size: 14px;
+            justify-items: center;
+            height: 320px;
+            width: 374px;
+            border-radius: 50%;
+            text-align: center;
+            background-color: #3cafe0;
+            font-style: oblique;
+            text-decoration: underline;
+        }
+
+        .form1 {
+            border-width: 5px;
+            border-style: dashed;
+            height: 607px;
+            text-align: center;
+            border-color: red;
+            color: #e46767;
+            margin-top: 152px;
+        }
+
+        .menu {
+            margin-top: 210px;
+            margin-left: 35rem;
+            text-align: center;
+            border: 2px solid black;
+            width: 350px;
+            border: 7px solid red;
+            ;
+            background-color: black;
+            color: white;
+            font-style: oblique;
+            border-radius: 100px;
+        }
+
+        .card1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 30px;
+            color: blue;
+            text-align: center;
+
+
+        }
+
+        .card2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            margin-top: 30px;
+            color: blue;
+            text-align: center;
+
+        }
+
+        .box1 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border-radius: 34px;
+            border: 5px solid rgb(7, 58, 7);
+            background-color: rgb(29 241 223);
+        }
+
+        .box2 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border-radius: 34px;
+            border: 5px solid rgb(7, 58, 7);
+            background-color: rgb(29 241 223);
+
+        }
+
+        .box3 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border-radius: 34px;
+            border: 5px solid rgb(7, 58, 7);
+            background-color: rgb(29 241 223);
+
+
+        }
+
+        .box4 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border-radius: 34px;
+            border: 5px solid rgb(7, 58, 7);
+            background-color: rgb(29 241 223);
+
+
+        }
+
+        .box5 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border: 5px solid rgb(7, 58, 7);
+            border-radius: 34px;
+            background-color: rgb(29 241 223);
+
+        }
+
+        .box6 {
+            border: 2px solid black;
+            width: 320px;
+            height: 265px;
+            border-radius: 34px;
+            border: 5px solid rgb(7, 58, 7);
+
+            background-color: rgb(29 241 223);
+
+        }
+
+        li {
+            font-size: 17px;
+            font-weight: 1px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="parent1">
+            <div class="first">
+                <h2>Welcome to Govindas Restaurant</h2>
+                <h2>You will get quality foods</h2>
+            </div>
+            <div class="second">
+                <h3>Home Menu Review Contact US</h3>
+            </div>
+            <div class="third">
+                <h3>Email : store@email.com</h3>
+                <h3>If you find an complaint</h3>
+                <h3>Contact on - 90093*****</h3>
+            </div>
+        </div>
+        <div class="parent2">
+            <div class="circle">
+                <h2 style="margin-top: 3rem;">EXCITING OFFERS</h2>
+                <hr color="white">
+                <h2>**GET OUR SPECIAL THALI FOR ONLY RS-100 ONLY ON MONDAY**</h2>
+                <hr color="white">
+                <h2>LS RATE US OUT OF 5</h2>
+            </div>
+            <div class="form1">
+                <h1>PLEASE REGISTER HERE</h1>
+                <hr>
+                <label for="name">First Name :</label><br>
+                <input type="text" placeholder="enter your first name"><br><br>
+                <label for="name">Last Name :</label><br>
+                <input type="text" placeholder="enter your last name"><br><br>
+                <label for="name">Your age :</label><br>
+                <input type="text" placeholder="enter your age"><br><br>
+                <label for="name">Email :</label><br>
+                <input type="text" placeholder="my Email"><br><br>
+                <label for="name">Date of birth:</label><br>
+                <input type="date" placeholder="enter your first name"><br><br>
+                <label for="name">Are you more than one person ?</label><br>
+                <input type="checkbox" placeholder="enter your first name"><br><br>
+                <label for="name">Do you have cough or old ?</label><br>
+                <input type="checkbox" placeholder="enter your first name"><br><br>
+                <label for="name">Click Here</label><br>
+                <input type="submit" placeholder="click here"><br><br>
+                <input type="reset" placeholder="reset"><br><br>
+            </div>
+        </div>
+
+        <div class="menu">
+            <h2>MENU</h2>
+        </div>
+        <hr color="grey">
+        <div class="card1">
+            <div class="box1">
+                <h1>Starters</h1>
+                <hr>
+                <ul>
+                    <li>Paneer Tikka</li>
+                    <li>Tomoto Soup</li>
+                    <li>Afghani chaap</li>
+                    <li>Veg Raita</li>
+                    <li>Gol gappa</li>
+                    <li>Tikki</li>
+                    <li>Fried Rice</li>
+                </ul>
+            </div>
+            <div class="box2">
+                <h1>South Indian</h1>
+                <hr>
+                <ul>
+                    <li>Masala Dosa</li>
+                    <li>Idli Sambhar</li>
+                    <li>Mix Veg. Uttapam</li>
+                    <li>Onion Dosa</li>
+                    <li>Vada Sambhar</li>
+                    <li>Paper Plain Dosa</li>
+                    <li>tomato Uttapam</li>
+                </ul>
+            </div>
+            <div class="box3">
+                <h1>Indian Kitchen</h1>
+                <hr>
+                <ul>
+                    <li>Shahi Paneer</li>
+                    <li>Kadhai Paneer</li>
+                    <li>Aloo Ghobi</li>
+                    <li>Dal Makhni</li>
+                    <li>Poori sabji</li>
+                    <li>Malai kofta </li>
+                    <li>Stuff Capsicum</li>
+                </ul>
+            </div>
+        </div>
+        <div class="card2">
+            <div class="box4">
+                <h1>Rice & Salad</h1>
+                <hr>
+                <ul>
+                    <li>Plain rice</li>
+                    <li>Jeera Rice</li>
+                    <li>Fried Rice</li>
+                    <li>Veg. pulao</li>
+                    <li>Veg. Biryani</li>
+                    <li>Cheese Fried rice</li>
+                    <li>Masala salad</li>
+                </ul>
+            </div>
+            <div class="box5">
+                <h1>Tandoori Bread</h1>
+                <hr>
+                <ul>
+                    <li>Butter Roti</li>
+                    <li>Missi Roti</li>
+                    <li>Onion Paratha</li>
+                    <li>Lacha paratha</li>
+                    <li>Butter Naan</li>
+                    <li>Paneer Parantha</li>
+                    <li>Stuff Parantha</li>
+                </ul>
+            </div>
+            <div class="box6">
+                <h1>
+                    Beverages & Others
+                </h1>
+                <hr>
+                <ul>
+                    <li>Cold Coffee</li>
+                    <li>Coldrinks</li>
+                    <li>Badam Milk</li>
+                    <li>Mineral Water</li>
+                    <li>Ice Cream</li>
+                    <li>Cake</li>
+                    <li>Gajar Halwa</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
